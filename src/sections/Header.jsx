@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import XoraLogo from "../assets/images/xora.svg";
 import { NavLink } from "../components/NavLink";
 import { Link as LinkScroll } from "react-scroll";
@@ -8,10 +8,29 @@ import bgOutline from "../assets/images/bg-outlines.svg";
 import bgFilles from "../assets/images/bg-outlines-fill.png";
 
 export const Header = () => {
+  const [hasScroll, setHasScroll] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    handleScroll();
+  }, []);
+
+  //Efecto para regresar la barra a su lugar
+  const handleScroll = () => {
+    setHasScroll(window.scrollY > 32);
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  };
+
   return (
-    <header className="fixed top-0 left-0 z-50 w-full py-10">
+    <header
+      className={`fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 ${
+        hasScroll && "py-2 bg-black-100 backdrop-blur-[8px]"
+      }`}
+    >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
           <img src={XoraLogo} alt="logo" width={115} height={55} />
@@ -29,9 +48,9 @@ export const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title="Feature" />
+                  <NavLink title="feature" />
                   <div className="dot" />
-                  <NavLink title="Pricing" />
+                  <NavLink title="pricing" />
                 </li>
 
                 <li className="nav-logo">

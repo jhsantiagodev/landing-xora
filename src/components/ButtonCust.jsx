@@ -24,7 +24,7 @@ export const ButtonCust = ({
           <img
             src={icon}
             alt="circle"
-            className="size-10 object-contain z-10"
+            className="size-10 object-contain z-10 mr-2"
           />
         )}
 
