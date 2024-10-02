@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 ### Dependecies
 - npm i react-scroll
 - npm i react-countup
+- npm i react-slidedown --legacy-peer-deps
