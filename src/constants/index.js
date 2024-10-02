@@ -6,6 +6,12 @@ import d1 from "../assets/images/detail-1.png";
 import d2 from "../assets/images/detail-2.png";
 import d3 from "../assets/images/detail-3.png";
 import d4 from "../assets/images/detail-4.png";
+import circle from "../assets/images/circle.svg";
+import triangle from "../assets/images/triangle.svg";
+import exagon from "../assets/images/hexagon.svg";
+import plan1 from "../assets/images/plan-1.png";
+import plan2 from "../assets/images/plan-2.png";
+import plan3 from "../assets/images/plan-3.png";
 
 export const features = [
   {
@@ -131,8 +137,8 @@ export const plans = [
       "5 projects",
       "24/7 support",
     ],
-    icon: "/images/circle.svg",
-    logo: "/images/plan-1.png",
+    icon: circle,
+    logo: plan1,
   },
   {
     id: "1",
@@ -146,8 +152,8 @@ export const plans = [
       "Unlimited projects",
       "Analytics",
     ],
-    icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
+    icon: triangle,
+    logo: plan2,
   },
   {
     id: "2",
@@ -161,8 +167,8 @@ export const plans = [
       "50% off per member",
       "Real-time collaboration",
     ],
-    icon: "/images/hexagon.svg",
-    logo: "/images/plan-3.png",
+    icon: exagon,
+    logo: plan3,
   },
 ];
 
