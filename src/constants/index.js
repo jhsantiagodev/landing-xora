@@ -12,6 +12,12 @@ import exagon from "../assets/images/hexagon.svg";
 import plan1 from "../assets/images/plan-1.png";
 import plan2 from "../assets/images/plan-2.png";
 import plan3 from "../assets/images/plan-3.png";
+import test1 from "../assets/images/testimonials/jessica-saunders.png";
+import test2 from "../assets/images/testimonials/mark-erixon.png";
+import test3 from "../assets/images/testimonials/melanie-hurst.png";
+import test4 from "../assets/images/testimonials/alicia-barker.png";
+import test5 from "../assets/images/testimonials/becky-snider.png";
+import test6 from "../assets/images/testimonials/jim-bradley.png";
 
 export const features = [
   {
@@ -177,7 +183,7 @@ export const testimonials = [
     id: "0",
     name: "Jessica Saunders",
     role: "Globalnomads",
-    avatarUrl: "/images/testimonials/jessica-saunders.png",
+    avatarUrl: test1,
     comment:
       "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
@@ -185,7 +191,7 @@ export const testimonials = [
     id: "1",
     name: "Mark Erixon",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
+    avatarUrl: test2,
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
@@ -193,7 +199,7 @@ export const testimonials = [
     id: "2",
     name: "Melanie Hurst",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
+    avatarUrl: test3,
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
@@ -201,7 +207,7 @@ export const testimonials = [
     id: "3",
     name: "Alicia Barker",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
+    avatarUrl: test4,
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
@@ -209,7 +215,7 @@ export const testimonials = [
     id: "4",
     name: "Becky Snider",
     role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
+    avatarUrl: test5,
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
@@ -217,7 +223,7 @@ export const testimonials = [
     id: "5",
     name: "Jim Bradley",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
+    avatarUrl: test6,
     comment:
       "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
   },
