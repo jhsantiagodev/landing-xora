@@ -30,6 +30,11 @@ import logo3 from "../assets/images/logos/sonos.svg";
 import logo4 from "../assets/images/logos/maze.svg";
 import logo5 from "../assets/images/logos/drips.svg";
 
+import social1 from "../assets/images/socials/x.svg";
+import social2 from "../assets/images/socials/threads.svg";
+import social3 from "../assets/images/socials/instagram.svg";
+import social4 from "../assets/images/socials/discord.svg";
+
 export const features = [
   {
     id: "0",
@@ -309,25 +314,25 @@ export const socials = [
   {
     id: "0",
     title: "x",
-    icon: "/images/socials/x.svg",
+    icon: social1,
     url: "#",
   },
   {
     id: "1",
     title: "Threads",
-    icon: "/images/socials/threads.svg",
+    icon: social2,
     url: "#",
   },
   {
     id: "2",
     title: "Instagram",
-    icon: "/images/socials/instagram.svg",
+    icon: social3,
     url: "#",
   },
   {
     id: "3",
     title: "Discord",
-    icon: "/images/socials/discord.svg",
+    icon: social4,
     url: "#",
   },
 ];
